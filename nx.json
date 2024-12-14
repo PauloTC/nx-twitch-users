@@ -18,6 +18,10 @@
     "sharedGlobals": []
   },
   "nxCloudId": "675da11a0c1d113dbe842a33",
+  "workspaceLayout": {
+    "appsDir": "apps",
+    "libsDir": "libs"
+  },
   "plugins": [
     {
       "plugin": "@nx/next/plugin",
@@ -60,6 +64,11 @@
       "application": {
         "style": "scss",
         "linter": "eslint"
+      }
+    },
+    "@nx/react": {
+      "library": {
+        "unitTestRunner": "none"
       }
     }
   }
